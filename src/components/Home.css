@@ -7,7 +7,7 @@
 }
 
 .homePage .postContents {
-  max-width: 600px;
+  width: 600px;
   height: auto;
   max-height: 600px;
   box-shadow: 0px 4px 15px -5px #777777;
@@ -32,4 +32,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 630px) {
+  .homePage .postContents {
+    width: 85%;
+  }
 }
