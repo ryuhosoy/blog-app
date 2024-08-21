@@ -13,7 +13,7 @@ const Logout = ({ setIsAuth }) => {
   }
 
   return (
-    <div>
+    <div className="logout">
       <p>ログアウトする</p>
       <button onClick={logout}>ログアウト</button>
     </div>

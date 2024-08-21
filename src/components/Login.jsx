@@ -13,7 +13,7 @@ const Login = ({ setIsAuth }) => {
   }
 
   return (
-    <div>
+    <div className="login">
       <p>ログインして始める</p>
       <button onClick={loginInWithGoogle}>Googleでログイン</button>
     </div>
