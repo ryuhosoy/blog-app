@@ -7,7 +7,7 @@
 }
 
 .homePage .postContents {
-  width: 600px;
+  max-width: 600px;
   height: auto;
   max-height: 600px;
   box-shadow: 0px 4px 15px -5px #777777;
