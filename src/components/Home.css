@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 680px) {
   .homePage .postContents {
     width: 85%;
   }
